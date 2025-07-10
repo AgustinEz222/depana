@@ -218,3 +218,9 @@
 [01:48:06] [Server thread/INFO]: [ValexPim: Teleported ValexPim to AgustinEz2]
 [01:49:31] [Server thread/INFO]: ValexPim issued server command: /tp Valuudraw
 [01:49:31] [Server thread/INFO]: [ValexPim: Teleported ValexPim to Valuudraw]
+[01:55:01] [Server thread/INFO]: ValexPim issued server command: /gamemode creative
+[01:55:01] [Server thread/INFO]: [ValexPim: Set own game mode to Creative Mode]
+[01:57:59] [Server thread/INFO]: ValexPim issued server command: /gamemode survival
+[01:57:59] [Server thread/INFO]: [ValexPim: Set own game mode to Survival Mode]
+[02:00:30] [Server thread/INFO]: ValexPim lost connection: Disconnected
+[02:00:30] [Server thread/INFO]: ValexPim left the game
