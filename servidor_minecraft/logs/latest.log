@@ -140,3 +140,23 @@
 [01:08:49] [Server thread/INFO]: [AgustinEz2: Unlocked 1290 recipes for 3 players]
 [01:09:46] [Server thread/INFO]: Valuudraw issued server command: /tp ValexPim Valuudraw
 [01:09:46] [Server thread/INFO]: [Valuudraw: Teleported ValexPim to Valuudraw]
+[01:10:13] [Server thread/INFO]: Valuudraw issued server command: /tp ValexPim Valuudraw
+[01:10:13] [Server thread/INFO]: [Valuudraw: Teleported ValexPim to Valuudraw]
+[01:10:13] [Server thread/INFO]: ValexPim issued server command: /home
+[01:10:22] [Server thread/INFO]: ValexPim issued server command: /tp Valuudraw
+[01:10:22] [Server thread/INFO]: [ValexPim: Teleported ValexPim to Valuudraw]
+[01:10:27] [Server thread/INFO]: AgustinEz2 issued server command: /scoreboard objectives setdisplay sidebar Muertes
+[01:10:27] [Server thread/INFO]: [AgustinEz2: Set display slot sidebar to show objective Muertes]
+[01:13:11] [Server thread/INFO]: ValexPim issued server command: /tp Valuudraw
+[01:13:11] [Server thread/INFO]: [ValexPim: Teleported ValexPim to Valuudraw]
+[01:14:47] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[01:15:36] [Server thread/INFO]: AgustinEz2 issued server command: /gamerule playersSleepingPercentage 1
+[01:15:36] [Server thread/INFO]: [AgustinEz2: Gamerule playersSleepingPercentage is now set to: 1]
+[01:16:47] [Server thread/INFO]: AgustinEz2 was slain by Zombie
+[01:16:58] [Server thread/INFO]: AgustinEz2 issued server command: /execute in minecraft:overworld run tp AgustinEz2 803.5 134 1319.5
+[01:16:58] [Server thread/INFO]: [AgustinEz2: Teleported AgustinEz2 to 803.500000, 134.000000, 1319.500000]
+[01:17:23] [Server thread/INFO]: Villager Villager['Villager'/13668, uuid='b4325cb1-80eb-44f7-8bf9-58dc5033a868', l='ServerLevel[world]', x=-262.63, y=72.50, z=2170.72, cpos=[-17, 135], tl=191, v=true] died, message: 'Villager suffocated in a wall'
+[01:18:48] [Server thread/INFO]: AgustinEz2 issued server command: /fill 803 141 1314
+[01:19:23] [Server thread/INFO]: AgustinEz2 issued server command: /fill 803 141 1314 796 116 1321 air
+[01:19:23] [Server thread/INFO]: [AgustinEz2: Successfully filled 1050 block(s)]
+[01:19:33] [Server thread/INFO]: AgustinEz2 issued server command: /home
