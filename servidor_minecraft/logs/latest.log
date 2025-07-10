@@ -198,3 +198,13 @@
 [01:28:24] [Server thread/INFO]: AgustinEz2 joined the game
 [01:28:24] [Server thread/INFO]: AgustinEz2[/127.85.175.63:58361] logged in with entity id 17016 at ([world]803.5413475366722, 63.0, 1326.9746497703518)
 [01:30:07] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[01:31:54] [Server thread/INFO]: Valuudraw issued server command: /home
+[01:32:10] [Server thread/INFO]: Valuudraw issued server command: /tp ValexPim
+[01:32:10] [Server thread/INFO]: [Valuudraw: Teleported Valuudraw to ValexPim]
+[01:36:50] [Server thread/INFO]: ValexPim issued server command: /tp valuudraw ValexPim
+[01:36:50] [Server thread/INFO]: [ValexPim: Teleported Valuudraw to ValexPim]
+[01:37:40] [Server thread/INFO]: ValexPim issued server command: /home
+[01:38:25] [Server thread/INFO]: ValexPim issued server command: /tp Valuudraw
+[01:38:25] [Server thread/INFO]: [ValexPim: Teleported ValexPim to Valuudraw]
+[01:39:16] [Server thread/INFO]: ValexPim issued server command: /tp Valuudraw
+[01:39:16] [Server thread/INFO]: [ValexPim: Teleported ValexPim to Valuudraw]
