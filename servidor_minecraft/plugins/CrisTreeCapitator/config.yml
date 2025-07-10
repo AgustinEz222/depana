@@ -13,7 +13,7 @@ initial message: true
 replant: true
 
 #Sets if the new 1.16 nether trees should be treated as regular trees, and therefore cut down entirely as well.
-cut nether "trees": false
+cut nether "trees": true
 
 #If true, crouching players won't trigger this plugin or only crouching players will. If "inverted", players will have to crouch to destroy trees instantly. False by default so updating from previous versions won't change this behaviour without notice.
 crouch for prevention: false
@@ -28,7 +28,7 @@ invincible replant: false
 vip mode: false
 
 #Sets if this plugin starts activated for players when they enter the server. If false, players will need to use /tc toggle to activate it for themselves.
-start activated: false
+start activated: true
 
 #Sets if an axe is required to Cut down trees at once.
 axe needed: true

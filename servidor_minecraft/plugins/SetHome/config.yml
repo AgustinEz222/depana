@@ -2,13 +2,13 @@
 
 # Settings for /sethome
 cmd-sethome-message-show: true
-cmd-sethome-cooldown: 5
+cmd-sethome-cooldown: 10
 cmd-sethome-warmup: 0
 cmd-sethome-warmup-cancel-on-move: false
 
 # Settings for /home
 cmd-home-message-show: false
-cmd-home-cooldown: 5
+cmd-home-cooldown: 1
 cmd-home-warmup: 0
 cmd-home-warmup-cancel-on-move: false
 
