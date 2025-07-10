@@ -4,7 +4,7 @@
 damage axe: true
 
 #Sets the maximum number of logs and leaves that can be destroyed at once. -1 to unlimit.
-destroy limit: 500
+destroy limit: 600
 
 #If true, it sends each player a message about /tc toggle when they join the server. The message changes depending on the value of "start activated".
 initial message: true

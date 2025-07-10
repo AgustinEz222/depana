@@ -124,3 +124,19 @@
 [00:56:04] [Server thread/INFO]: AgustinEz2 issued server command: /home
 [00:56:29] [Server thread/INFO]: AgustinEz2 was doomed to fall by Skeleton
 [00:56:33] [Server thread/INFO]: AgustinEz2 issued server command: /acfetch 1
+[01:03:04] [User Authenticator #2/INFO]: UUID of player Valuudraw is 64fddec5-143d-3c20-a625-7950eaf72ea5
+[01:03:06] [Server thread/INFO]: Valuudraw joined the game
+[01:03:06] [Server thread/INFO]: Valuudraw[/127.30.54.43:33275] logged in with entity id 6609 at ([world]199.2071696661284, 73.0, 2036.0971294664719)
+[01:04:05] [Server thread/INFO]: AgustinEz2 issued server command: /execute in minecraft:overworld run tp AgustinEz2 252.0 69 457.0
+[01:04:05] [Server thread/INFO]: [AgustinEz2: Teleported AgustinEz2 to 252.000000, 69.000000, 457.000000]
+[01:04:38] [Server thread/INFO]: AgustinEz2 issued server command: /cristc setLimit 100000
+[01:07:17] [Server thread/INFO]: AgustinEz2 issued server command: /effect give @a minecraft:glowing infinite
+[01:07:17] [Server thread/INFO]: [AgustinEz2: Applied effect Glowing to 3 targets]
+[01:07:23] [Server thread/INFO]: AgustinEz2 issued server command: /cristc setLimit 600
+[01:07:37] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[01:08:37] [Server thread/INFO]: Valuudraw issued server command: /tp ValexPim
+[01:08:37] [Server thread/INFO]: [Valuudraw: Teleported Valuudraw to ValexPim]
+[01:08:48] [Server thread/INFO]: AgustinEz2 issued server command: /recipe give @a *
+[01:08:49] [Server thread/INFO]: [AgustinEz2: Unlocked 1290 recipes for 3 players]
+[01:09:46] [Server thread/INFO]: Valuudraw issued server command: /tp ValexPim Valuudraw
+[01:09:46] [Server thread/INFO]: [Valuudraw: Teleported ValexPim to Valuudraw]

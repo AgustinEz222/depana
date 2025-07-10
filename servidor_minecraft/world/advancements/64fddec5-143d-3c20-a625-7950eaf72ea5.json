@@ -1553,12 +1553,6 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2025-07-09 20:59:38 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/exposed_chiseled_copper_from_exposed_copper_stonecutting": {
     "criteria": {
       "has_the_recipe": "2025-07-09 17:52:03 +0000"
@@ -2120,12 +2114,6 @@
   "minecraft:recipes/decorations/lime_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_the_recipe": "2025-07-09 17:52:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/lava_bucket": {
-    "criteria": {
-      "lava_bucket": "2025-07-09 19:40:15 +0000"
     },
     "done": true
   },
@@ -2900,12 +2888,6 @@
   "minecraft:recipes/building_blocks/dye_light_gray_wool": {
     "criteria": {
       "has_the_recipe": "2025-07-09 17:52:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/brew_potion": {
-    "criteria": {
-      "potion": "2025-07-09 20:45:25 +0000"
     },
     "done": true
   },
@@ -4226,12 +4208,6 @@
   "minecraft:recipes/misc/coal": {
     "criteria": {
       "has_the_recipe": "2025-07-09 17:52:03 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/form_obsidian": {
-    "criteria": {
-      "obsidian": "2025-07-09 18:16:26 +0000"
     },
     "done": true
   },
@@ -6839,12 +6815,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/trade": {
-    "criteria": {
-      "traded": "2025-07-09 20:52:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_from_honeycomb": {
     "criteria": {
       "has_the_recipe": "2025-07-09 17:52:03 +0000"
@@ -7844,6 +7814,36 @@
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_the_recipe": "2025-07-09 17:52:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2025-07-09 18:16:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-07-09 19:40:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2025-07-09 20:45:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-07-09 20:52:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-07-09 20:59:38 +0000"
     },
     "done": true
   },
