@@ -328,10 +328,12 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2025-07-10 18:52:48 +0000",
       "minecraft:skeleton": "2025-07-08 17:55:14 +0000",
       "minecraft:spider": "2025-07-08 18:05:05 +0000",
       "minecraft:zombie": "2025-07-08 17:56:45 +0000",
-      "minecraft:creeper": "2025-07-08 17:55:11 +0000"
+      "minecraft:creeper": "2025-07-08 17:55:11 +0000",
+      "minecraft:hoglin": "2025-07-10 18:36:37 +0000"
     },
     "done": false
   },
@@ -724,7 +726,8 @@
       "apple": "2025-07-09 18:42:32 +0000",
       "bread": "2025-07-09 19:15:06 +0000",
       "rotten_flesh": "2025-07-08 18:10:56 +0000",
-      "cooked_mutton": "2025-07-08 18:47:33 +0000"
+      "cooked_mutton": "2025-07-08 18:47:33 +0000",
+      "golden_carrot": "2025-07-10 18:03:33 +0000"
     },
     "done": false
   },
@@ -7793,6 +7796,37 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2025-07-09 19:36:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-07-10 18:36:19 +0000",
+      "minecraft:nether_wastes": "2025-07-10 18:49:01 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-07-10 18:36:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-07-10 18:36:19 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2025-07-10 18:52:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-07-10 18:48:41 +0000"
     },
     "done": true
   },
