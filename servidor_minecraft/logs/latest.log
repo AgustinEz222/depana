@@ -208,3 +208,13 @@
 [01:38:25] [Server thread/INFO]: [ValexPim: Teleported ValexPim to Valuudraw]
 [01:39:16] [Server thread/INFO]: ValexPim issued server command: /tp Valuudraw
 [01:39:16] [Server thread/INFO]: [ValexPim: Teleported ValexPim to Valuudraw]
+[01:42:52] [Server thread/INFO]: Valuudraw suffocated in a wall
+[01:42:58] [Server thread/INFO]: Valuudraw issued server command: /actp 1
+[01:45:35] [Server thread/INFO]: ValexPim issued server command: /home
+[01:45:39] [Server thread/INFO]: Valuudraw issued server command: /home
+[01:45:51] [Server thread/INFO]: ValexPim issued server command: /tp Valuudraw
+[01:45:51] [Server thread/INFO]: [ValexPim: Teleported ValexPim to Valuudraw]
+[01:48:06] [Server thread/INFO]: ValexPim issued server command: /tp AgustinEz2
+[01:48:06] [Server thread/INFO]: [ValexPim: Teleported ValexPim to AgustinEz2]
+[01:49:31] [Server thread/INFO]: ValexPim issued server command: /tp Valuudraw
+[01:49:31] [Server thread/INFO]: [ValexPim: Teleported ValexPim to Valuudraw]
