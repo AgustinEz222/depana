@@ -1,18 +1,251 @@
-[19:11:19] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
-[19:11:20] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[19:11:20] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[19:11:21] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
-[19:11:21] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
+[19:12:34] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.7+6-Ubuntu-0ubuntu124.04; Ubuntu null) on Linux 6.8.0-1027-azure (amd64)
+[19:12:34] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[19:12:34] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[19:12:35] [ServerMain/INFO]: [PluginInitializerManager] Initialized 6 plugins
+[19:12:35] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (6):
  - AngelChest (13.9.4), Chunky (1.4.40), CrisTreeCapitator (6.4.4), LuckPerms (5.5.0), SetHome (6.2.3), SkinsRestorer (15.7.6)
-[19:11:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:11:29] [ServerMain/ERROR]: Failed to start the minecraft server
-net.minecraft.util.DirectoryLock$LockException: /workspaces/depana/servidor_minecraft/./world/session.lock: already locked (possibly by other Minecraft instance?)
-	at net.minecraft.util.DirectoryLock$LockException.alreadyLocked(DirectoryLock.java:100) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.util.DirectoryLock.create(DirectoryLock.java:30) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.<init>(LevelStorageSource.java:522) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.world.level.storage.LevelStorageSource.validateAndCreateAccess(LevelStorageSource.java:428) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.Main.main(Main.java:198) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at io.papermc.paper.PaperBootstrap.boot(PaperBootstrap.java:21) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at org.bukkit.craftbukkit.Main.main(Main.java:281) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[19:12:44] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:12:47] [ServerMain/INFO]: Loaded 1290 recipes
+[19:12:47] [ServerMain/INFO]: Loaded 1399 advancements
+[19:12:48] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[19:12:48] [Server thread/INFO]: Loading properties
+[19:12:48] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[19:12:49] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[19:12:49] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[19:12:49] [Server thread/INFO]: Using 4 threads for Netty based IO
+[19:12:51] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[19:12:52] [Server thread/INFO]: Default game type: SURVIVAL
+[19:12:52] [Server thread/INFO]: Generating keypair
+[19:12:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:12:52] [Server thread/INFO]: Using epoll channel type
+[19:12:52] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[19:12:52] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[19:12:53] [Server thread/INFO]: [SetHome] Loading server plugin SetHome v6.2.3
+[19:12:53] [Server thread/INFO]: [CrisTreeCapitator] Loading server plugin CrisTreeCapitator v6.4.4
+[19:12:53] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.4.40
+[19:12:53] [Server thread/INFO]: [AngelChest] Loading server plugin AngelChest v13.9.4
+[19:12:53] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[19:12:54] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.7.6
+[19:12:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:12:54] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[19:12:54] [Server thread/INFO]:         __    
+[19:12:54] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[19:12:54] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[19:12:54] [Server thread/INFO]: 
+[19:12:54] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[19:12:55] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[19:12:55] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[19:12:56] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[19:12:56] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1888ms)
+[19:12:56] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.7.6
+[19:12:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.1.
+[19:13:01] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[19:13:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:13:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:13:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:13:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:13:01] [Server thread/INFO]: Preparing level "world"
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.7.6
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: 9abea93
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[19:13:01] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[19:13:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:13:04] [Server thread/INFO]: Time elapsed: 2380 ms
+[19:13:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[19:13:04] [Server thread/INFO]: Time elapsed: 353 ms
+[19:13:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[19:13:05] [Server thread/INFO]: Time elapsed: 378 ms
+[19:13:05] [Server thread/INFO]: [SetHome] Enabling SetHome v6.2.3
+[19:13:05] [Server thread/INFO]: [CrisTreeCapitator] Enabling CrisTreeCapitator v6.4.4
+[19:13:05] [Server thread/INFO]: [CrisTreeCapitator] WorldGuard not found. Maybe WorldGuard or this plugin are not up to date?
+[19:13:05] [Server thread/INFO]: [CrisTreeCapitator] Logs from JSON: [OAK_LOG, OAK_LOG, OAK_LOG, OAK_LOG]
+[19:13:05] [Server thread/INFO]: [CrisTreeCapitator] Leaves from JSON: [OAK_LEAVES, OAK_LEAVES, OAK_LEAVES, OAK_LEAVES]
+[19:13:05] [Server thread/INFO]: [CrisTreeCapitator] Enabled
+[19:13:05] [Server thread/INFO]: [Chunky] Enabling Chunky v1.4.40
+[19:13:05] [Server thread/INFO]: [AngelChest] Enabling AngelChest v13.9.4
+[19:13:06] [Server thread/INFO]: [AngelChest] groups.yml does not exist, skipping custom group settings.
+[19:13:06] [Server thread/INFO]: [AngelChest] blacklist.yml does not exist, disabling item blacklist.
+[19:13:06] [Server thread/INFO]: [AngelChest] Not using premium version, disabling Graveyards feature
+[19:13:07] [Server thread/WARN]: [AngelChest] Could not add usage/description to command acopen
+[19:13:07] [Server thread/INFO]: [AngelChest] Vault not installed, disabling economy functions.
+[19:13:07] [Server thread/INFO]: [AngelChest] [ACF] Enabled Asynchronous Tab Completion Support!
+[19:13:07] [Server thread/INFO]: [AngelChest] Successfully enabled AngelChest v13.9.4 (Premium: false)
+[19:13:08] [Server thread/INFO]: [spark] Starting background profiler...
+[19:13:09] [Server thread/INFO]: Done preparing level "world" (8.043s)
+[19:13:09] [Server thread/INFO]: Running delayed init tasks
+[19:13:09] [Server thread/INFO]: Done (36.778s)! For help, type "help"
+[19:13:09] [Server thread/INFO]: Timings Reset
+[19:13:12] [Server thread/INFO]: [AngelChest] ========================================================
+[19:13:12] [Server thread/INFO]: [AngelChest] You are using the free version of AngelChest. There is
+[19:13:12] [Server thread/INFO]: [AngelChest] also a premium version available, called AngelChestPlus.
+[19:13:12] [Server thread/INFO]: [AngelChest] It includes TONS of new features and exclusive Discord
+[19:13:12] [Server thread/INFO]: [AngelChest] support. The free version will still receive bugfixes,
+[19:13:12] [Server thread/INFO]: [AngelChest] but there won't be ANY new features!
+[19:13:12] [Server thread/INFO]: [AngelChest] If you like AngelChest, you will LOVE AngelChestPlus, so
+[19:13:12] [Server thread/INFO]: [AngelChest] please consider upgrading! Thank you for using AngelChest.
+[19:13:12] [Server thread/INFO]: [AngelChest] 
+[19:13:12] [Server thread/INFO]: [AngelChest] https://www.spigotmc.org/resources/88214
+[19:13:12] [Server thread/INFO]: [AngelChest] ========================================================
+[19:13:32] [User Authenticator #0/INFO]: UUID of player AgustinEz2 is dd4c0740-061a-3a0b-832c-bdde761d88a2
+[19:13:34] [Server thread/INFO]: AgustinEz2 joined the game
+[19:13:34] [Server thread/INFO]: AgustinEz2[/127.85.175.63:51537] logged in with entity id 13 at ([world]813.3965493549863, 162.0, 1317.8608088253375)
+[19:13:48] [User Authenticator #0/INFO]: UUID of player Valuudraw is 64fddec5-143d-3c20-a625-7950eaf72ea5
+[19:13:51] [Server thread/INFO]: Valuudraw joined the game
+[19:13:51] [Server thread/INFO]: Valuudraw[/127.27.126.87:45087] logged in with entity id 220 at ([world]182.55376665104757, 64.0, 2078.6865496230353)
+[19:20:26] [Server thread/INFO]: AgustinEz2 issued server command: /cristc setStartActivated false
+[19:30:03] [Server thread/INFO]: Valuudraw issued server command: /tp AgustinEz2
+[19:30:03] [Server thread/INFO]: [Valuudraw: Teleported Valuudraw to AgustinEz2]
+[19:30:51] [Server thread/INFO]: Valuudraw issued server command: /home
+[19:35:51] [Server thread/INFO]: AgustinEz2 issued server command: /tp Valuudraw
+[19:35:51] [Server thread/INFO]: [AgustinEz2: Teleported AgustinEz2 to Valuudraw]
+[19:36:52] [Server thread/INFO]: AgustinEz2 issued server command: /execute in minecraft:overworld run tp AgustinEz2 898.0 64 1278.0
+[19:36:52] [Server thread/INFO]: [AgustinEz2: Teleported AgustinEz2 to 898.000000, 64.000000, 1278.000000]
+[19:36:58] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[19:37:19] [Server thread/INFO]: AgustinEz2 issued server command: /gamemode creative
+[19:37:19] [Server thread/INFO]: [AgustinEz2: Set own game mode to Creative Mode]
+[19:37:52] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[19:37:55] [Server thread/INFO]: AgustinEz2 issued server command: /gamemode survival
+[19:37:55] [Server thread/INFO]: [AgustinEz2: Set own game mode to Survival Mode]
+[19:41:07] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[19:42:23] [Server thread/INFO]: AgustinEz2 issued server command: /tp Valuudraw
+[19:42:23] [Server thread/INFO]: [AgustinEz2: Teleported AgustinEz2 to Valuudraw]
+[19:43:19] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[19:53:18] [User Authenticator #1/INFO]: UUID of player Gato_Lechoso is 1e8128f0-91c7-3b13-a9a0-44558ab0650f
+[19:53:19] [Server thread/INFO]: Gato_Lechoso joined the game
+[19:53:19] [Server thread/INFO]: Gato_Lechoso[/127.90.29.78:49743] logged in with entity id 10740 at ([world]199.38904222913698, 75.64836004890442, 2039.2737207291937)
+[19:54:09] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[19:54:59] [Server thread/INFO]: Valuudraw issued server command: /tp Gato_Lechoso
+[19:54:59] [Server thread/INFO]: [Valuudraw: Teleported Valuudraw to Gato_Lechoso]
+[19:55:04] [Server thread/INFO]: Valuudraw issued server command: /tp Gato_Lechoso
+[19:55:04] [Server thread/INFO]: [Valuudraw: Teleported Valuudraw to Gato_Lechoso]
+[19:58:32] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[19:59:14] [Server thread/INFO]: Gato_Lechoso has made the advancement [We Need to Go Deeper]
+[19:59:18] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[19:59:31] [Server thread/INFO]: AgustinEz2 issued server command: /cristc setStartActivated true
+[20:00:17] [Server thread/INFO]: AgustinEz2 was shot by Skeleton
+[20:00:21] [Server thread/INFO]: AgustinEz2 issued server command: /acfetch 1
+[20:00:48] [Server thread/INFO]: Gato_Lechoso has made the advancement [A Terrible Fortress]
+[20:09:28] [Server thread/INFO]: AgustinEz2 issued server command: /tp Valuudraw
+[20:09:28] [Server thread/INFO]: [AgustinEz2: Teleported AgustinEz2 to Valuudraw]
+[20:09:36] [Server thread/WARN]: Gato_Lechoso moved wrongly!
+[20:09:38] [Server thread/WARN]: Gato_Lechoso moved wrongly!
+[20:09:57] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[20:10:00] [Server thread/INFO]: Gato_Lechoso has made the advancement [Those Were the Days]
+[20:10:43] [Server thread/INFO]: Gato_Lechoso burned to death
+[20:10:46] [Server thread/INFO]: Gato_Lechoso issued server command: /actp 1
+[20:11:30] [Server thread/INFO]: AgustinEz2 was slain by Spider
+[20:11:34] [Server thread/INFO]: AgustinEz2 issued server command: /actp 1
+[20:12:15] [Server thread/INFO]: Gato_Lechoso has made the advancement [War Pigs]
+[20:12:17] [Server thread/INFO]: Gato_Lechoso has made the advancement [Hidden in the Depths]
+[20:16:33] [Server thread/INFO]: Gato_Lechoso has made the advancement [Not Today, Thank You]
+[20:18:01] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[20:18:15] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[20:18:29] [Server thread/INFO]: AgustinEz2 was shot by Skeleton
+[20:18:33] [Server thread/INFO]: AgustinEz2 issued server command: /actp 1
+[20:18:56] [Server thread/INFO]: Gato_Lechoso was slain by Piglin Brute
+[20:18:58] [Server thread/INFO]: Gato_Lechoso issued server command: /actp 1
+[20:22:47] [Server thread/INFO]: AgustinEz2 issued server command: /execute in minecraft:overworld run tp AgustinEz2 872.0 93 1322.0
+[20:22:47] [Server thread/INFO]: [AgustinEz2: Teleported AgustinEz2 to 872.000000, 93.000000, 1322.000000]
+[20:24:00] [Server thread/INFO]: Gato_Lechoso issued server command: /tp Valuudraw
+[20:24:00] [Server thread/INFO]: [Gato_Lechoso: Teleported Gato_Lechoso to Valuudraw]
+[20:24:33] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[20:27:03] [Server thread/INFO]: Gato_Lechoso lost connection: Kicked for exceeding packet rate limit
+[20:27:03] [Server thread/INFO]: Gato_Lechoso left the game
+[20:27:13] [User Authenticator #2/INFO]: UUID of player Gato_Lechoso is 1e8128f0-91c7-3b13-a9a0-44558ab0650f
+[20:27:14] [Server thread/INFO]: Gato_Lechoso joined the game
+[20:27:14] [Server thread/INFO]: Gato_Lechoso[/127.90.29.78:50499] logged in with entity id 28657 at ([world]214.01998453476068, 72.9375, 2064.7244206591745)
+[20:34:05] [Async Chat Thread - #0/INFO]: [Not Secure] <AgustinEz2> @
+[20:35:37] [Server thread/INFO]: Valuudraw issued server command: /gamemode creative
+[20:35:37] [Server thread/INFO]: [Valuudraw: Set own game mode to Creative Mode]
+[20:35:37] [Server thread/INFO]: AgustinEz2 was shot by Piglin
+[20:35:50] [Server thread/INFO]: AgustinEz2 issued server command: /actp 1
+[20:37:02] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[20:37:47] [Server thread/INFO]: Gato_Lechoso has made the advancement [Cover Me with Diamonds]
+[20:38:02] [Server thread/INFO]: Valuudraw issued server command: /gamemode survival
+[20:38:02] [Server thread/INFO]: [Valuudraw: Set own game mode to Survival Mode]
+[20:39:19] [Server thread/INFO]: Gato_Lechoso has completed the challenge [Hot Tourist Destinations]
+[20:41:19] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[20:45:17] [Server thread/INFO]: Gato_Lechoso has completed the challenge [Return to Sender]
+[20:45:38] [Async Chat Thread - #1/INFO]: [Not Secure] <Valuudraw> .
+[20:47:06] [Server thread/INFO]: Gato_Lechoso has made the advancement [Ice Bucket Challenge]
+[20:48:11] [Server thread/INFO]: Gato_Lechoso has made the advancement [Into Fire]
+[20:49:03] [Server thread/INFO]: Gato_Lechoso issued server command: /tp Valuudraw
+[20:49:03] [Server thread/INFO]: [Gato_Lechoso: Teleported Gato_Lechoso to Valuudraw]
+[20:49:15] [Server thread/INFO]: Valuudraw lost connection: Disconnected
+[20:49:15] [Server thread/INFO]: Valuudraw left the game
+[20:53:31] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[20:53:38] [Server thread/INFO]: AgustinEz2 issued server command: /sethome
+[21:00:34] [Server thread/INFO]: AgustinEz2 issued server command: /execute in minecraft:overworld run tp AgustinEz2 224.5 73 2033.5
+[21:00:34] [Server thread/INFO]: [AgustinEz2: Teleported AgustinEz2 to 224.500000, 73.000000, 2033.500000]
+[21:00:54] [Server thread/INFO]: AgustinEz2 issued server command: /effect give @a minecraft:glowing
+[21:00:54] [Server thread/INFO]: [AgustinEz2: Applied effect Glowing to 2 targets]
+[21:01:00] [Server thread/INFO]: AgustinEz2 issued server command: /effect give 1e8128f0-91c7-3b13-a9a0-44558ab0650f minecraft:glowing
+[21:01:00] [Server thread/INFO]: [AgustinEz2: Applied effect Glowing to Gato_Lechoso]
+[21:01:21] [Server thread/INFO]: AgustinEz2 issued server command: /effect give 4b728b50-29ed-40a6-b4b6-898344e8703e minecraft:glowing
+[21:01:21] [Server thread/INFO]: [AgustinEz2: Applied effect Glowing to Wolf]
+[21:01:51] [Server thread/INFO]: AgustinEz2 issued server command: /effect give @a minecraft:glowing infinite
+[21:01:51] [Server thread/INFO]: [AgustinEz2: Applied effect Glowing to 2 targets]
+[21:02:09] [Server thread/INFO]: AgustinEz2 issued server command: /effect give 4b728b50-29ed-40a6-b4b6-898344e8703e minecraft:absorption infinite 1000
+[21:02:10] [Server thread/INFO]: AgustinEz2 issued server command: /effect give 4b728b50-29ed-40a6-b4b6-898344e8703e minecraft:absorption infinite 100
+[21:02:10] [Server thread/INFO]: [AgustinEz2: Applied effect Absorption to Wolf]
+[21:02:21] [Server thread/INFO]: AgustinEz2 issued server command: /effect give 4b728b50-29ed-40a6-b4b6-898344e8703e minecraft:resistance infinite 100
+[21:02:21] [Server thread/INFO]: [AgustinEz2: Applied effect Resistance to Wolf]
+[21:02:46] [Server thread/INFO]: AgustinEz2 issued server command: /effect give 4b728b50-29ed-40a6-b4b6-898344e8703e minecraft:instant_health infinite 100
+[21:02:46] [Server thread/INFO]: [AgustinEz2: Applied effect Instant Health to Wolf]
+[21:03:02] [Server thread/INFO]: AgustinEz2 issued server command: /effect give 4b728b50-29ed-40a6-b4b6-898344e8703e minecraft:glowing infinite
+[21:03:02] [Server thread/INFO]: [AgustinEz2: Applied effect Glowing to Wolf]
+[21:03:37] [Server thread/INFO]: AgustinEz2 issued server command: /effect give 4b728b50-29ed-40a6-b4b6-898344e8703e minecraft:saturation infinite 199
+[21:03:37] [Server thread/INFO]: [AgustinEz2: Applied effect Saturation to Wolf]
+[21:05:04] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[21:05:33] [Server thread/INFO]: AgustinEz2 issued server command: /gamemode creative
+[21:05:33] [Server thread/INFO]: [AgustinEz2: Set own game mode to Creative Mode]
+[21:06:16] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[21:07:07] [Server thread/INFO]: AgustinEz2 issued server command: /gamemode survival
+[21:07:07] [Server thread/INFO]: [AgustinEz2: Set own game mode to Survival Mode]
+[21:19:30] [Server thread/INFO]: AgustinEz2 issued server command: /home
+[21:22:41] [Server thread/INFO]: Gato_Lechoso lost connection: Disconnected
+[21:22:41] [Server thread/INFO]: Gato_Lechoso left the game
+[21:23:47] [Server thread/INFO]: AgustinEz2 lost connection: Disconnected
+[21:23:47] [Server thread/INFO]: AgustinEz2 left the game
+[21:38:48] [Server thread/INFO]: Stopping the server
+[21:38:48] [Server thread/INFO]: Stopping server
+[21:38:48] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.6
+[21:38:48] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[21:38:48] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[21:38:48] [Server thread/INFO]: [LuckPerms] Closing storage...
+[21:38:48] [Server thread/INFO]: [LuckPerms] Goodbye!
+[21:38:48] [Server thread/INFO]: [AngelChest] Disabling AngelChest v13.9.4
+[21:38:48] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[21:38:48] [Server thread/INFO]: [CrisTreeCapitator] Disabling CrisTreeCapitator v6.4.4
+[21:38:48] [Server thread/INFO]: [CrisTreeCapitator] Disabled
+[21:38:48] [Server thread/INFO]: [SetHome] Disabling SetHome v6.2.3
+[21:38:48] [Server thread/INFO]: Saving players
+[21:38:48] [Server thread/INFO]: Saving worlds
+[21:38:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 2 entity chunks, 0 poi chunks in world 'world' in 0.02s
+[21:38:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Saved 11 block chunks, 31 entity chunks, 0 poi chunks in world 'world_nether' in 0.03s
+[21:38:48] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:38:48] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[21:38:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:38:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:38:48] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:38:48] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
