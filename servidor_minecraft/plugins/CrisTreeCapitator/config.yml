@@ -28,7 +28,7 @@ invincible replant: false
 vip mode: false
 
 #Sets if this plugin starts activated for players when they enter the server. If false, players will need to use /tc toggle to activate it for themselves.
-start activated: true
+start activated: false
 
 #Sets if an axe is required to Cut down trees at once.
 axe needed: true
