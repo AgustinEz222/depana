@@ -114,3 +114,6 @@
 [20:05:02] [Server thread/INFO]: [AgustinEz2: Set own game mode to Spectator Mode]
 [20:40:02] [Server thread/INFO]: Valuudraw lost connection: Disconnected
 [20:40:02] [Server thread/INFO]: Valuudraw left the game
+[22:47:42] [User Authenticator #2/INFO]: UUID of player Valuudraw is 64fddec5-143d-3c20-a625-7950eaf72ea5
+[22:47:44] [Server thread/INFO]: Valuudraw joined the game
+[22:47:44] [Server thread/INFO]: Valuudraw[/127.31.230.212:44139] logged in with entity id 7558 at ([world]183.23099289106338, 63.0, 2074.1808175523392)
