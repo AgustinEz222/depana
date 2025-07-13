@@ -127,3 +127,5 @@
 [23:08:22] [Server thread/INFO]: Valuudraw issued server command: /home
 [23:09:03] [Server thread/INFO]: Valuudraw issued server command: /actp 1
 [23:17:31] [Server thread/INFO]: Valuudraw issued server command: /home
+[23:23:42] [Server thread/INFO]: Valuudraw lost connection: Disconnected
+[23:23:42] [Server thread/INFO]: Valuudraw left the game
