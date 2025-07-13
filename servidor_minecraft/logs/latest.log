@@ -117,3 +117,12 @@
 [22:47:42] [User Authenticator #2/INFO]: UUID of player Valuudraw is 64fddec5-143d-3c20-a625-7950eaf72ea5
 [22:47:44] [Server thread/INFO]: Valuudraw joined the game
 [22:47:44] [Server thread/INFO]: Valuudraw[/127.31.230.212:44139] logged in with entity id 7558 at ([world]183.23099289106338, 63.0, 2074.1808175523392)
+[23:02:14] [Server thread/INFO]: Valuudraw was slain by Hoglin
+[23:02:16] [Server thread/INFO]: Valuudraw issued server command: /actp 1
+[23:03:30] [Server thread/INFO]: Valuudraw has made the advancement [Hidden in the Depths]
+[23:05:04] [Server thread/INFO]: Valuudraw issued server command: /kill
+[23:05:04] [Server thread/INFO]: Valuudraw was killed
+[23:05:04] [Server thread/INFO]: [Valuudraw: Killed Valuudraw]
+[23:05:22] [Server thread/INFO]: Valuudraw issued server command: /actp 1
+[23:08:22] [Server thread/INFO]: Valuudraw issued server command: /home
+[23:09:03] [Server thread/INFO]: Valuudraw issued server command: /actp 1
