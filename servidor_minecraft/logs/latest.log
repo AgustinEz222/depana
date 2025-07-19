@@ -108,3 +108,6 @@
 [22:42:24] [Server thread/INFO]: [AgustinEz2: Set own game mode to Spectator Mode]
 [22:42:24] [Server thread/INFO]: AgustinEz2 issued server command: /gamemode survival
 [22:42:24] [Server thread/INFO]: [AgustinEz2: Set own game mode to Survival Mode]
+[23:22:16] [User Authenticator #1/INFO]: UUID of player Valuudraw is 64fddec5-143d-3c20-a625-7950eaf72ea5
+[23:22:18] [Server thread/INFO]: Valuudraw joined the game
+[23:22:18] [Server thread/INFO]: Valuudraw[/127.84.6.103:54155] logged in with entity id 2101 at ([world]177.5, 64.0, 2075.5)
