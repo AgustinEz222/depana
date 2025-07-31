@@ -106,3 +106,5 @@
 [21:35:48] [Server thread/INFO]: AgustinEz2[/127.85.175.63:58643] logged in with entity id 13 at ([world]805.8028619655547, 162.0, 1326.6416695689832)
 [21:40:35] [Server thread/INFO]: AgustinEz2 issued server command: /execute in minecraft:overworld run tp AgustinEz2 242.0 70 2019.0
 [21:40:35] [Server thread/INFO]: [AgustinEz2: Teleported AgustinEz2 to 242.000000, 70.000000, 2019.000000]
+[21:48:51] [Server thread/INFO]: AgustinEz2 issued server command: /gamemode spectator
+[21:48:51] [Server thread/INFO]: [AgustinEz2: Set own game mode to Spectator Mode]
