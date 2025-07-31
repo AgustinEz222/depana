@@ -108,3 +108,59 @@
 [21:40:35] [Server thread/INFO]: [AgustinEz2: Teleported AgustinEz2 to 242.000000, 70.000000, 2019.000000]
 [21:48:51] [Server thread/INFO]: AgustinEz2 issued server command: /gamemode spectator
 [21:48:51] [Server thread/INFO]: [AgustinEz2: Set own game mode to Spectator Mode]
+[22:04:11] [Server thread/INFO]: Stopping the server
+[22:04:11] [Server thread/INFO]: Stopping server
+[22:04:11] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.7.7
+[22:04:11] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.0
+[22:04:11] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[22:04:11] [Server thread/INFO]: [LuckPerms] Closing storage...
+[22:04:11] [Server thread/INFO]: [LuckPerms] Goodbye!
+[22:04:11] [Server thread/INFO]: [AngelChest] Disabling AngelChest v13.9.4
+[22:04:11] [Server thread/ERROR]: Error occurred while disabling AngelChest v13.9.4
+java.lang.ExceptionInInitializerError: null
+	at AngelChest-13.9.4.jar/de.jeff_media.angelchest.AngelChestMain.onDisable(AngelChestMain.java:445) ~[AngelChest-13.9.4.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugins(PaperPluginInstanceManager.java:161) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugins(PaperPluginManagerImpl.java:97) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugins(SimplePluginManager.java:541) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.disablePlugins(CraftServer.java:609) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.stopServer(MinecraftServer.java:1046) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.stopServer(DedicatedServer.java:847) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1353) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.bukkit.plugin.IllegalPluginAccessException: Plugin attempted to register task while disabled
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.validate(CraftScheduler.java:539) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:219) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.runTaskTimer(CraftScheduler.java:210) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.scheduler.BukkitRunnable.runTaskTimer(BukkitRunnable.java:117) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at AngelChest-13.9.4.jar/de.jeff_media.angelchest.AngelChestMain$$cI.<clinit>(GraveyardListener.java:57) ~[AngelChest-13.9.4.jar:?]
+	... 12 more
+[22:04:11] [Server thread/INFO]: [Chunky] Disabling Chunky v1.4.40
+[22:04:11] [Server thread/INFO]: [CrisTreeCapitator] Disabling CrisTreeCapitator v6.4.4
+[22:04:11] [Server thread/INFO]: [CrisTreeCapitator] Disabled
+[22:04:11] [Server thread/INFO]: [SetHome] Disabling SetHome v6.2.3
+[22:04:11] [Server thread/INFO]: Saving players
+[22:04:11] [Server thread/INFO]: AgustinEz2 lost connection: Server closed
+[22:04:11] [Server thread/INFO]: AgustinEz2 left the game
+[22:04:11] [Server thread/INFO]: Saving worlds
+[22:04:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:04:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:04:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:04:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:04:11] [Server thread/INFO]: [ChunkHolderManager] Saved 4 block chunks, 211 entity chunks, 0 poi chunks in world 'world' in 0.10s
+[22:04:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:04:11] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:04:11] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:04:11] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:04:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0.01s
+[22:04:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:04:12] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:04:12] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:04:12] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:04:12] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0.01s
+[22:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
